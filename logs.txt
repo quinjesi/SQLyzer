@@ -1,0 +1,2 @@
+[SCAN] Date/Time: 2024-12-09 10:32:22, Target URL: http://testphp.vulnweb.com/listproducts.php
+[SCAN] Date/Time: 2025-05-19 12:50:40, Target URL: http://testphp.vulnweb.com
