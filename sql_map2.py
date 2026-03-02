@@ -12,7 +12,7 @@ def display_header():
     for line in lines:
         print(colored(line, 'cyan', attrs=['bold']))  # Cyan color with bold effect
         time.sleep(0.5)  # Slight delay for dramatic effect
-    print(colored(' ' * 25 + "Written by Jesimiel", 'yellow', attrs=['bold', 'underline']))
+    print(colored(' ' * 25 + "Written by QuinJesi", 'yellow', attrs=['bold', 'underline']))
     print(colored('-' * 70, 'green'))
 
 # Function to log scan details
